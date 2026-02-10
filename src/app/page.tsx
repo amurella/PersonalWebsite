@@ -20,9 +20,9 @@ const navigationCards = [
     description: "Side projects and experiments",
   },
   {
-    href: "/extracurriculars",
-    title: "Extracurriculars",
-    description: "Activities beyond work",
+    href: "/blog",
+    title: "Blog",
+    description: "Thoughts and writings",
   },
 ];
 
