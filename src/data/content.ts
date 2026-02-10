@@ -1,15 +1,14 @@
 export const personalInfo = {
-  name: "Your Name",
-  tagline: "Software Engineer & Creative Builder",
-  bio: `I'm a passionate software engineer with a love for building elegant solutions
+  name: "Akhila Murella",
+  tagline: "Product Manager & Builder. Lover of blending the creative and technical for the good of humanity.",
+  bio: `I'm a passionate product managerwith a love for building elegant solutions
   to complex problems. With a background in computer science and years of experience
-  in full-stack development, I enjoy creating applications that make a difference.
+  as a product manager in entertainment, I enjoy creating productsthat make a difference for people.
 
-  When I'm not coding, you can find me exploring new technologies, contributing to
-  open-source projects, or enjoying outdoor activities.`,
-  email: "hello@example.com",
+  When I'm not working, you can find me exploring new latest tech, trying out new wellness tools and reading.`,
+  email: "akhila.murella@gmail.com",
   github: "https://github.com",
-  linkedin: "https://linkedin.com",
+  linkedin: "www.linkedin.com/in/akhila-murella",
 };
 
 export const skills = [
