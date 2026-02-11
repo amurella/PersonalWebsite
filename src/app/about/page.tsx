@@ -1,6 +1,12 @@
+import type { Metadata } from "next";
 import SectionHeader from "@/components/SectionHeader";
 import SkillBadge from "@/components/SkillBadge";
 import { personalInfo, skills } from "@/data/content";
+
+export const metadata: Metadata = {
+  title: "About | Akhila Murella",
+  description: "Learn more about Akhila Murella - Product Manager & Builder with a background in computer science and experience in entertainment tech.",
+};
 
 export default function About() {
   return (

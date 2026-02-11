@@ -1,6 +1,12 @@
+import type { Metadata } from "next";
 import SectionHeader from "@/components/SectionHeader";
 import ProjectCard from "@/components/ProjectCard";
 import { projects } from "@/data/content";
+
+export const metadata: Metadata = {
+  title: "Projects | Akhila Murella",
+  description: "Side projects and experiments built by Akhila Murella.",
+};
 
 export default function Projects() {
   return (

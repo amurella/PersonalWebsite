@@ -1,6 +1,12 @@
+import type { Metadata } from "next";
 import SectionHeader from "@/components/SectionHeader";
 import ExperienceCard from "@/components/ExperienceCard";
 import { experiences } from "@/data/content";
+
+export const metadata: Metadata = {
+  title: "Experience | Akhila Murella",
+  description: "Professional experience and career highlights of Akhila Murella, including roles at Microsoft Xbox, Meta, and Intel.",
+};
 
 export default function Experience() {
   return (

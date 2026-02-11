@@ -1,5 +1,11 @@
+import type { Metadata } from "next";
 import SectionHeader from "@/components/SectionHeader";
 import { blogPosts } from "@/data/content";
+
+export const metadata: Metadata = {
+  title: "Blog | Akhila Murella",
+  description: "Thoughts and writings on product management, technology, and more by Akhila Murella.",
+};
 
 export default function Blog() {
   return (

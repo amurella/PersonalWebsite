@@ -8,7 +8,7 @@ export const personalInfo = {
   When I'm not working, you can find me exploring new latest tech, trying out new wellness tools and reading.`,
   email: "akhila.murella@gmail.com",
   github: "https://github.com",
-  linkedin: "www.linkedin.com/in/akhila-murella",
+  linkedin: "https://www.linkedin.com/in/akhila-murella",
 };
 
 export const skills = [
