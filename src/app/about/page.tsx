@@ -13,7 +13,7 @@ export default function About() {
     <div className="max-w-3xl mx-auto px-6 py-16">
       <SectionHeader
         title="About Me"
-        subtitle="Get to know a little more about who I am"
+        subtitle="What makes me excited both professionally and personally"
       />
 
       <section className="mb-12">

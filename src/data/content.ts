@@ -1,6 +1,6 @@
 export const personalInfo = {
   name: "Akhila Murella",
-  tagline: "Product Manager & Builder. Lover of blending the creative and technical for the good of humanity.",
+  tagline: "Product Manager & Builder. I love blending the creative and technical to create products that make a difference.",
   bio: `I'm a passionate product manager and technical program manager with a love for finding creative solutions
   to complex problems that drive value for everyone. With a background in computer science and years of experience
   as a product manager in entertainment, I enjoy creating products that make a difference for people. 
@@ -31,12 +31,12 @@ export const experiences = [
     location: "Redmond, WA",
     period: "08/2019 - 12/2024",
     description: [
-      "Led full lifecycle development of WebView2 from ideation through launch and iteration, which included managing technical API design, developer onboarding workflows, and go-to-market strategy",
-      "Managed external partnerships with strategic media brands (Spotify, Netflix, Max), uncovering critical partner needs and executing complex integrations while maintaining stakeholder confidence",
-      "Drove media ecosystem growth by collaborating cross-functionally with business and engineering teams to evaluate and onboard new content partners. Built standardized automation workflows to reduce time to onboard by 20%",
-      "Developed the product vision and strategy for Xbox Media Platform, aligning priorities across engineering, design, business, and external stakeholders. Presented the ROI to senior leadership, which secured continued investment in the media platform",
-      "Led cross-functional teams to make strategic platform improvements for the launch of media apps on the Xbox Series X|S, contributing to a 5% increase in monthly active users (MAU) from the previous generations. Improvements included supporting various media content types (video streaming, music, UWP games) while maintaining 99.9% reliability across millions of users",
-      "Developed feedback loops, metrics, and analytics to measure adoption velocity, integration success, and overall media platform health",
+      "Owned end to end development and delivery of the WebView2 developer platform, including leading API design, scope discussions, feature prioritization, developer documentation, and go-to-market execution across 10+ teams across Windows, Xbox and HoloLens. Webview2 became the foundational development infrastructure adopted by external developers and internal teams and increased developer satisfaction by 15%",
+      "Strengthened external partnerships with strategic media partners (Disney/ESPN, Netflix, Spotify, Max, Tubi). This included uncovering critical partner needs, surfacing requirements across internal teams, leading complex integrations and navigating technical tradeoffs to support millions of users at 99.9% system reliability",
+      "Identified critical developer lifecycle conversion moments and drove cross functional prioritization decisions to reduce developer onboarding time by 20%, contributing to 7% increase in total media platform developers on Xbox",
+      "Influenced and shaped the Xbox media platform roadmap by identifying content synergy opportunities between gaming and media, resulting in a 10% lift in cross content engagement and a $2 increase in ARPU. Presented ROI to senior leadership to secure continued investment in the media platform",
+      "Led program coordination across 100+ cross-functional stakeholders (product, engineering, design, data, marketing, BD, and external app partners) to deliver media apps on the Xbox Series X|S, resulting in 5% increase in MAU over the prior generation at 99.9% reliability",
+      "Established observability tooling and data dashboards to measure adoption velocity, activation, engagement, and retention across the Xbox media platform",
     ],
   },
   {
