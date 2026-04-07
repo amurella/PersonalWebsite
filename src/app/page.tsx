@@ -1,8 +1,7 @@
-import { personalInfo, skills, experiences, projects, blogPosts } from "@/data/content";
+import { personalInfo, skills, experiences, blogPosts } from "@/data/content";
 import SocialLinks from "@/components/SocialLinks";
 import SkillBadge from "@/components/SkillBadge";
 import ExperienceCard from "@/components/ExperienceCard";
-import ProjectCard from "@/components/ProjectCard";
 
 export default function Home() {
   return (
@@ -56,17 +55,9 @@ export default function Home() {
       {/* Projects */}
       <section id="projects">
         <h2 className="text-2xl font-bold text-foreground mb-6">Projects</h2>
-        <div className="grid sm:grid-cols-2 gap-6">
-          {projects.map((project, index) => (
-            <ProjectCard
-              key={index}
-              title={project.title}
-              description={project.description}
-              technologies={project.technologies}
-              githubUrl={project.githubUrl}
-              liveUrl={project.liveUrl}
-            />
-          ))}
+        <div className="p-6 bg-white border border-border rounded-lg">
+          <p className="text-lg font-semibold text-foreground">Coming Soon</p>
+          <p className="text-secondary text-sm mt-1">Projects coming soon. Stay tuned!</p>
         </div>
       </section>
 

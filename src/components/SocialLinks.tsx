@@ -11,7 +11,7 @@ export default function SocialLinks({ className = "", iconSize = 20 }: SocialLin
   return (
     <div className={`flex items-center gap-4 ${className}`}>
       <a
-        href="https://github.com"
+        href="https://github.com/amurella"
         target="_blank"
         rel="noopener noreferrer"
         className="text-secondary hover:text-accent transition-colors"
@@ -20,7 +20,7 @@ export default function SocialLinks({ className = "", iconSize = 20 }: SocialLin
         <Github size={iconSize} />
       </a>
       <a
-        href="https://linkedin.com"
+        href="https://www.linkedin.com/in/akhila-murella"
         target="_blank"
         rel="noopener noreferrer"
         className="text-secondary hover:text-accent transition-colors"
@@ -29,7 +29,7 @@ export default function SocialLinks({ className = "", iconSize = 20 }: SocialLin
         <Linkedin size={iconSize} />
       </a>
       <a
-        href="mailto:hello@example.com"
+        href="mailto:akhila.murella@gmail.com"
         className="text-secondary hover:text-accent transition-colors"
         aria-label="Email"
       >
