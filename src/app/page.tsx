@@ -16,7 +16,7 @@ export default function Home() {
       </section>
 
       {/* About */}
-      <section id="about">
+      <section id="about" className="scroll-mt-20">
         <h2 className="text-2xl font-bold text-foreground mb-6">About Me</h2>
         <div className="prose prose-gray max-w-none mb-8">
           {personalInfo.bio.split("\n\n").map((paragraph, index) => (
@@ -36,7 +36,7 @@ export default function Home() {
       </section>
 
       {/* Experience */}
-      <section id="experience">
+      <section id="experience" className="scroll-mt-20">
         <h2 className="text-2xl font-bold text-foreground mb-6">Experience</h2>
         <div className="space-y-6">
           {experiences.map((experience, index) => (
@@ -53,7 +53,7 @@ export default function Home() {
       </section>
 
       {/* Projects */}
-      <section id="projects">
+      <section id="projects" className="scroll-mt-20">
         <h2 className="text-2xl font-bold text-foreground mb-6">Projects</h2>
         <div className="p-6 bg-white border border-border rounded-lg">
           <p className="text-lg font-semibold text-foreground">Coming Soon</p>
@@ -62,7 +62,7 @@ export default function Home() {
       </section>
 
       {/* Blog */}
-      <section id="blog">
+      <section id="blog" className="scroll-mt-20">
         <h2 className="text-2xl font-bold text-foreground mb-6">Blog</h2>
         <div className="space-y-6">
           {blogPosts.map((post, index) => (
