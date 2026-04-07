@@ -2,12 +2,14 @@ import { personalInfo, skills, experiences, blogPosts } from "@/data/content";
 import SocialLinks from "@/components/SocialLinks";
 import SkillBadge from "@/components/SkillBadge";
 import ExperienceCard from "@/components/ExperienceCard";
+import TypewriterText from "@/components/TypewriterText";
 
 export default function Home() {
   return (
     <div className="max-w-3xl mx-auto px-6 py-16 space-y-20">
       {/* Hero */}
       <section className="flex flex-col items-center justify-center text-center min-h-[80vh] -mt-16">
+        <TypewriterText />
         <h1 className="text-4xl sm:text-5xl font-bold text-foreground mb-4">
           {personalInfo.name}
         </h1>
